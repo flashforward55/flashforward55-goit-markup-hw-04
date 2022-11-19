@@ -473,9 +473,61 @@ a {
     color: var(--primary-white-color);
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.footer-address-items .address-link:hover,
+.footer-address-items .address-link:focus {
     color: var(--accent-color);
+}
+
+.footer-items-flex {
+    display: flex;
+}
+
+.footer-item-flex:not(:last-child) {
+    margin-right: 70px;
+}
+
+.footer-social-items {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-item {
+    flex-basis: calc((100% - 3 * var(--social-item-gap)) / 4);
+}
+
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-white-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.footer-social-svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.footer-social-subtitle {
+    font-size: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+
+.footer-social-padding {
+    padding-top: 12px;
 }
 
 /* ------------------------Section portfolio------------------------- */
