@@ -392,7 +392,6 @@ a {
 
 .clients-item-link {
     display: flex;
-    width: 170px;
     height: 92px;
     align-items: center;
     justify-content: center;
