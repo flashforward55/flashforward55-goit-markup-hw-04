@@ -378,6 +378,71 @@ a {
     fill: currentColor;
 }
 
+
+/* -----------------------------Sections clients-------------------------- */
+
+.clients-items {
+    display: flex;
+    gap: var(--card-set-gap);
+}
+
+.clients-item {
+    flex-basis: calc((100% - 5 * var(--card-set-gap)) / 6);
+}
+
+.clients-item-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    color: var(--social-team-color);
+    border: 1px solid var(--social-team-color);
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.clients-item-link:hover,
+.clients-item-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+
+}
+
+.clients-item-svg {
+    fill: currentColor;
+}
+
+.svg-company_1 {
+    width: 41px;
+    height: 46.7px;
+}
+
+.svg-company_2 {
+    width: 40px;
+    height: 52px;
+}
+
+.svg-company_3 {
+    width: 43.46px;
+    height: 41.18px;
+}
+
+.svg-company_4 {
+    width: 84.44px;
+    height: 40.62px;
+}
+
+.svg-company_5 {
+    width: 62.54px;
+    height: 45.43px;
+}
+
+.svg-company_6 {
+    width: 93.79px;
+    height: 43.49px;
+}
+
 /* ------------------------------Footer---------------------------------- */
 
 .footer {
