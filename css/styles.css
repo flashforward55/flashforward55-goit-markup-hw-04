@@ -526,8 +526,9 @@ a {
     margin-bottom: 20px;
 }
 
-.footer-social-padding {
+.footer-item-flex:not(:first-child) {
     padding-top: 12px;
+    padding-bottom: 40px;
 }
 
 /* ------------------------Section portfolio------------------------- */
