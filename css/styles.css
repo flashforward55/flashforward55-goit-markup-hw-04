@@ -602,14 +602,11 @@ a {
 .cards-items {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
+    gap: var(--card-set-gap);
 }
 
 .card-item {
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
+    flex-basis: calc((100% - 2 * var(--card-set-gap)) / 3);
 }
 
 .card-subtitle {
