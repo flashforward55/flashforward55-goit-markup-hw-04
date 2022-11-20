@@ -138,6 +138,11 @@ a {
     padding-bottom: 32px;
 }
 
+.header-nav-item .header-nav-link:hover,
+.header-nav-item .header-nav-link:focus {
+    color: var(--accent-color);
+}
+
 .heder-contact-items.list {
     display: flex;
     margin-left: auto;
