@@ -6,7 +6,7 @@
 - Склонируй созданный репозиторий и скопируй в него файлы предыдущей работы.
 - Добавь разметку и оформление иконок и декоративных эффектов для страниц из
   макета
-  [**домашнего задания #4**](<https://www.figma.com/file/ySHXIhZMJd5rFjANTnh8g9/Awesome-UI-(Copy)?node-id=0%3A1&t=aBTz2AQHBwZPOYHu-0>).
+  [**домашнего задания #4**](<https://www.figma.com/file/1ehrLBauvVFu4mVhxsHzyZ/Web-Studio-(Version-2.1)?node-id=0%3A1&t=ViRPunStmVlaZm3I-0>).
 - Для генерации SVG-спрайта используй сервис [**Icomoon**](https://icomoon.io/).
 - Для оптимизации созданного SVG-спрайта используй сервис
   [**svgomg**](https://jakearchibald.github.io/svgomg/).
